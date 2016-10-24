@@ -6,6 +6,31 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9208C7441DBE432600A7E3A8 /* QAVSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208C7381DBE432600A7E3A8 /* QAVSDK.framework */; };
+		9208C7451DBE432600A7E3A8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9208C7391DBE432600A7E3A8 /* README.md */; };
+		9208C7461DBE432600A7E3A8 /* xplatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208C73A1DBE432600A7E3A8 /* xplatform.framework */; };
+		9208C7471DBE432600A7E3A8 /* IMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208C73C1DBE432600A7E3A8 /* IMCore.framework */; };
+		9208C7481DBE432600A7E3A8 /* ImSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208C73D1DBE432600A7E3A8 /* ImSDK.framework */; };
+		9208C7491DBE432600A7E3A8 /* IMSDKBugly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208C73E1DBE432600A7E3A8 /* IMSDKBugly.framework */; };
+		9208C74A1DBE432600A7E3A8 /* QALSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208C73F1DBE432600A7E3A8 /* QALSDK.framework */; };
+		9208C74B1DBE432600A7E3A8 /* TLSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9208C7411DBE432600A7E3A8 /* TLSSDK.framework */; };
+		9208C7631DBE457800A7E3A8 /* AVFrameDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C75A1DBE457800A7E3A8 /* AVFrameDispatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C7641DBE457800A7E3A8 /* AVGLBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C75B1DBE457800A7E3A8 /* AVGLBaseView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C7651DBE457800A7E3A8 /* AVGLCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C75C1DBE457800A7E3A8 /* AVGLCommon.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C7661DBE457800A7E3A8 /* AVGLCustomRenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C75D1DBE457800A7E3A8 /* AVGLCustomRenderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C7671DBE457800A7E3A8 /* AVGLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C75E1DBE457800A7E3A8 /* AVGLImage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C7681DBE457800A7E3A8 /* AVGLRenderView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9208C75F1DBE457800A7E3A8 /* AVGLRenderView.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C7691DBE457800A7E3A8 /* AVGLRenderView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C7601DBE457800A7E3A8 /* AVGLRenderView+Animation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C76A1DBE457800A7E3A8 /* AVGLShareInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C7611DBE457800A7E3A8 /* AVGLShareInstance.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C76B1DBE457800A7E3A8 /* TCAVFrameDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C7621DBE457800A7E3A8 /* TCAVFrameDispatcher.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9208C77C1DBE4E1D00A7E3A8 /* ILiveLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C77B1DBE4E1D00A7E3A8 /* ILiveLoginManager.m */; };
+		9208C77F1DBE4E8800A7E3A8 /* ILiveRoomConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C77E1DBE4E8800A7E3A8 /* ILiveRoomConfig.m */; };
+		9208C7841DBE504B00A7E3A8 /* ILiveRoomOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C7831DBE504B00A7E3A8 /* ILiveRoomOption.m */; };
+		9208C7891DBE54B400A7E3A8 /* ILiveRoomManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C7881DBE54B400A7E3A8 /* ILiveRoomManager.m */; };
+		9208C7931DBE60BE00A7E3A8 /* ILivePushOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9208C7921DBE60BE00A7E3A8 /* ILivePushOption.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		9208C7091DBE3F5400A7E3A8 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +45,53 @@
 
 /* Begin PBXFileReference section */
 		9208C70B1DBE3F5400A7E3A8 /* libILiveSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libILiveSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9208C7381DBE432600A7E3A8 /* QAVSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QAVSDK.framework; sourceTree = "<group>"; };
+		9208C7391DBE432600A7E3A8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9208C73A1DBE432600A7E3A8 /* xplatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = xplatform.framework; sourceTree = "<group>"; };
+		9208C73C1DBE432600A7E3A8 /* IMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMCore.framework; sourceTree = "<group>"; };
+		9208C73D1DBE432600A7E3A8 /* ImSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ImSDK.framework; sourceTree = "<group>"; };
+		9208C73E1DBE432600A7E3A8 /* IMSDKBugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMSDKBugly.framework; sourceTree = "<group>"; };
+		9208C73F1DBE432600A7E3A8 /* QALSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QALSDK.framework; sourceTree = "<group>"; };
+		9208C7401DBE432600A7E3A8 /* readme */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme; sourceTree = "<group>"; };
+		9208C7411DBE432600A7E3A8 /* TLSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TLSSDK.framework; sourceTree = "<group>"; };
+		9208C7421DBE432600A7E3A8 /* Shaderf.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shaderf.glsl; sourceTree = "<group>"; };
+		9208C7431DBE432600A7E3A8 /* Shaderv.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shaderv.glsl; sourceTree = "<group>"; };
+		9208C7501DBE450700A7E3A8 /* ILiveCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILiveCommon.h; sourceTree = "<group>"; };
+		9208C7511DBE456A00A7E3A8 /* AVFrameDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVFrameDispatcher.h; sourceTree = "<group>"; };
+		9208C7521DBE456A00A7E3A8 /* AVGLBaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVGLBaseView.h; sourceTree = "<group>"; };
+		9208C7531DBE456A00A7E3A8 /* AVGLCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVGLCommon.h; sourceTree = "<group>"; };
+		9208C7541DBE456A00A7E3A8 /* AVGLCustomRenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVGLCustomRenderView.h; sourceTree = "<group>"; };
+		9208C7551DBE456A00A7E3A8 /* AVGLImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVGLImage.h; sourceTree = "<group>"; };
+		9208C7561DBE456A00A7E3A8 /* AVGLRenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVGLRenderView.h; sourceTree = "<group>"; };
+		9208C7571DBE456A00A7E3A8 /* AVGLRenderView+Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVGLRenderView+Animation.h"; sourceTree = "<group>"; };
+		9208C7581DBE456A00A7E3A8 /* AVGLShareInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVGLShareInstance.h; sourceTree = "<group>"; };
+		9208C7591DBE456A00A7E3A8 /* AVOpenGLHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVOpenGLHeader.h; sourceTree = "<group>"; };
+		9208C75A1DBE457800A7E3A8 /* AVFrameDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVFrameDispatcher.m; sourceTree = "<group>"; };
+		9208C75B1DBE457800A7E3A8 /* AVGLBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVGLBaseView.m; sourceTree = "<group>"; };
+		9208C75C1DBE457800A7E3A8 /* AVGLCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVGLCommon.m; sourceTree = "<group>"; };
+		9208C75D1DBE457800A7E3A8 /* AVGLCustomRenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVGLCustomRenderView.m; sourceTree = "<group>"; };
+		9208C75E1DBE457800A7E3A8 /* AVGLImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVGLImage.m; sourceTree = "<group>"; };
+		9208C75F1DBE457800A7E3A8 /* AVGLRenderView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AVGLRenderView.mm; sourceTree = "<group>"; };
+		9208C7601DBE457800A7E3A8 /* AVGLRenderView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVGLRenderView+Animation.m"; sourceTree = "<group>"; };
+		9208C7611DBE457800A7E3A8 /* AVGLShareInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVGLShareInstance.m; sourceTree = "<group>"; };
+		9208C7621DBE457800A7E3A8 /* TCAVFrameDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCAVFrameDispatcher.m; sourceTree = "<group>"; };
+		9208C76E1DBE466800A7E3A8 /* TCAVFrameDispatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCAVFrameDispatcher.h; sourceTree = "<group>"; };
+		9208C76F1DBE46B800A7E3A8 /* ILiveCoreHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILiveCoreHeader.h; sourceTree = "<group>"; };
+		9208C7751DBE4A0200A7E3A8 /* ILiveMemStatusLisenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILiveMemStatusLisenter.h; sourceTree = "<group>"; };
+		9208C7781DBE4DD500A7E3A8 /* ILiveRoomConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILiveRoomConfig.h; sourceTree = "<group>"; };
+		9208C7791DBE4DE200A7E3A8 /* ILiveLoginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILiveLoginManager.h; sourceTree = "<group>"; };
+		9208C77B1DBE4E1D00A7E3A8 /* ILiveLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILiveLoginManager.m; sourceTree = "<group>"; };
+		9208C77E1DBE4E8800A7E3A8 /* ILiveRoomConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILiveRoomConfig.m; sourceTree = "<group>"; };
+		9208C7801DBE503300A7E3A8 /* ILiveRoomOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILiveRoomOption.h; sourceTree = "<group>"; };
+		9208C7831DBE504B00A7E3A8 /* ILiveRoomOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILiveRoomOption.m; sourceTree = "<group>"; };
+		9208C7851DBE549400A7E3A8 /* ILiveRoomManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILiveRoomManager.h; sourceTree = "<group>"; };
+		9208C7881DBE54B400A7E3A8 /* ILiveRoomManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILiveRoomManager.m; sourceTree = "<group>"; };
+		9208C78F1DBE5F3500A7E3A8 /* ILivePushOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILivePushOption.h; sourceTree = "<group>"; };
+		9208C7921DBE60BE00A7E3A8 /* ILivePushOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILivePushOption.m; sourceTree = "<group>"; };
+		9208C7941DBE60CE00A7E3A8 /* ILiveRecordOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILiveRecordOption.h; sourceTree = "<group>"; };
+		9208C7981DBE623500A7E3A8 /* ILiveLoginManagerAble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILiveLoginManagerAble.h; sourceTree = "<group>"; };
+		9208C7991DBE62BC00A7E3A8 /* ILiveRoomManagerAble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILiveRoomManagerAble.h; sourceTree = "<group>"; };
+		9208C79A1DBE63C000A7E3A8 /* ILiveAVGLViewAble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILiveAVGLViewAble.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +99,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9208C74A1DBE432600A7E3A8 /* QALSDK.framework in Frameworks */,
+				9208C7461DBE432600A7E3A8 /* xplatform.framework in Frameworks */,
+				9208C7471DBE432600A7E3A8 /* IMCore.framework in Frameworks */,
+				9208C7491DBE432600A7E3A8 /* IMSDKBugly.framework in Frameworks */,
+				9208C7441DBE432600A7E3A8 /* QAVSDK.framework in Frameworks */,
+				9208C7481DBE432600A7E3A8 /* ImSDK.framework in Frameworks */,
+				9208C74B1DBE432600A7E3A8 /* TLSSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +115,7 @@
 		9208C7021DBE3F5400A7E3A8 = {
 			isa = PBXGroup;
 			children = (
+				9208C7361DBE432600A7E3A8 /* TCAVIMSDKS */,
 				9208C70D1DBE3F5400A7E3A8 /* ILiveSDK */,
 				9208C70C1DBE3F5400A7E3A8 /* Products */,
 			);
@@ -85,6 +165,8 @@
 		9208C71A1DBE3FD300A7E3A8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				9208C7971DBE620500A7E3A8 /* CoreAbstract */,
+				9208C7741DBE49EC00A7E3A8 /* Protocol */,
 				9208C71B1DBE3FD300A7E3A8 /* include */,
 				9208C71C1DBE3FD300A7E3A8 /* src */,
 			);
@@ -94,6 +176,15 @@
 		9208C71B1DBE3FD300A7E3A8 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				9208C7791DBE4DE200A7E3A8 /* ILiveLoginManager.h */,
+				9208C7781DBE4DD500A7E3A8 /* ILiveRoomConfig.h */,
+				9208C74C1DBE436600A7E3A8 /* View */,
+				9208C7501DBE450700A7E3A8 /* ILiveCommon.h */,
+				9208C76F1DBE46B800A7E3A8 /* ILiveCoreHeader.h */,
+				9208C7801DBE503300A7E3A8 /* ILiveRoomOption.h */,
+				9208C7851DBE549400A7E3A8 /* ILiveRoomManager.h */,
+				9208C78F1DBE5F3500A7E3A8 /* ILivePushOption.h */,
+				9208C7941DBE60CE00A7E3A8 /* ILiveRecordOption.h */,
 			);
 			path = include;
 			sourceTree = "<group>";
@@ -101,6 +192,12 @@
 		9208C71C1DBE3FD300A7E3A8 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				9208C7921DBE60BE00A7E3A8 /* ILivePushOption.m */,
+				9208C7881DBE54B400A7E3A8 /* ILiveRoomManager.m */,
+				9208C7831DBE504B00A7E3A8 /* ILiveRoomOption.m */,
+				9208C74D1DBE436D00A7E3A8 /* View */,
+				9208C77B1DBE4E1D00A7E3A8 /* ILiveLoginManager.m */,
+				9208C77E1DBE4E8800A7E3A8 /* ILiveRoomConfig.m */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -126,6 +223,91 @@
 			children = (
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		9208C7361DBE432600A7E3A8 /* TCAVIMSDKS */ = {
+			isa = PBXGroup;
+			children = (
+				9208C7371DBE432600A7E3A8 /* AVSDK */,
+				9208C73B1DBE432600A7E3A8 /* IMSDK */,
+				9208C7421DBE432600A7E3A8 /* Shaderf.glsl */,
+				9208C7431DBE432600A7E3A8 /* Shaderv.glsl */,
+			);
+			path = TCAVIMSDKS;
+			sourceTree = "<group>";
+		};
+		9208C7371DBE432600A7E3A8 /* AVSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9208C7381DBE432600A7E3A8 /* QAVSDK.framework */,
+				9208C7391DBE432600A7E3A8 /* README.md */,
+				9208C73A1DBE432600A7E3A8 /* xplatform.framework */,
+			);
+			path = AVSDK;
+			sourceTree = "<group>";
+		};
+		9208C73B1DBE432600A7E3A8 /* IMSDK */ = {
+			isa = PBXGroup;
+			children = (
+				9208C73C1DBE432600A7E3A8 /* IMCore.framework */,
+				9208C73D1DBE432600A7E3A8 /* ImSDK.framework */,
+				9208C73E1DBE432600A7E3A8 /* IMSDKBugly.framework */,
+				9208C73F1DBE432600A7E3A8 /* QALSDK.framework */,
+				9208C7401DBE432600A7E3A8 /* readme */,
+				9208C7411DBE432600A7E3A8 /* TLSSDK.framework */,
+			);
+			path = IMSDK;
+			sourceTree = "<group>";
+		};
+		9208C74C1DBE436600A7E3A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9208C76E1DBE466800A7E3A8 /* TCAVFrameDispatcher.h */,
+				9208C7511DBE456A00A7E3A8 /* AVFrameDispatcher.h */,
+				9208C7521DBE456A00A7E3A8 /* AVGLBaseView.h */,
+				9208C7531DBE456A00A7E3A8 /* AVGLCommon.h */,
+				9208C7541DBE456A00A7E3A8 /* AVGLCustomRenderView.h */,
+				9208C7551DBE456A00A7E3A8 /* AVGLImage.h */,
+				9208C7561DBE456A00A7E3A8 /* AVGLRenderView.h */,
+				9208C7571DBE456A00A7E3A8 /* AVGLRenderView+Animation.h */,
+				9208C7581DBE456A00A7E3A8 /* AVGLShareInstance.h */,
+				9208C7591DBE456A00A7E3A8 /* AVOpenGLHeader.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9208C74D1DBE436D00A7E3A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9208C75A1DBE457800A7E3A8 /* AVFrameDispatcher.m */,
+				9208C75B1DBE457800A7E3A8 /* AVGLBaseView.m */,
+				9208C75C1DBE457800A7E3A8 /* AVGLCommon.m */,
+				9208C75D1DBE457800A7E3A8 /* AVGLCustomRenderView.m */,
+				9208C75E1DBE457800A7E3A8 /* AVGLImage.m */,
+				9208C75F1DBE457800A7E3A8 /* AVGLRenderView.mm */,
+				9208C7601DBE457800A7E3A8 /* AVGLRenderView+Animation.m */,
+				9208C7611DBE457800A7E3A8 /* AVGLShareInstance.m */,
+				9208C7621DBE457800A7E3A8 /* TCAVFrameDispatcher.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9208C7741DBE49EC00A7E3A8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				9208C7751DBE4A0200A7E3A8 /* ILiveMemStatusLisenter.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		9208C7971DBE620500A7E3A8 /* CoreAbstract */ = {
+			isa = PBXGroup;
+			children = (
+				9208C7981DBE623500A7E3A8 /* ILiveLoginManagerAble.h */,
+				9208C7991DBE62BC00A7E3A8 /* ILiveRoomManagerAble.h */,
+				9208C79A1DBE63C000A7E3A8 /* ILiveAVGLViewAble.h */,
+			);
+			path = CoreAbstract;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9208C7931DBE60BE00A7E3A8 /* ILivePushOption.m in Sources */,
+				9208C7891DBE54B400A7E3A8 /* ILiveRoomManager.m in Sources */,
+				9208C7641DBE457800A7E3A8 /* AVGLBaseView.m in Sources */,
+				9208C7681DBE457800A7E3A8 /* AVGLRenderView.mm in Sources */,
+				9208C7841DBE504B00A7E3A8 /* ILiveRoomOption.m in Sources */,
+				9208C76B1DBE457800A7E3A8 /* TCAVFrameDispatcher.m in Sources */,
+				9208C7671DBE457800A7E3A8 /* AVGLImage.m in Sources */,
+				9208C7661DBE457800A7E3A8 /* AVGLCustomRenderView.m in Sources */,
+				9208C7451DBE432600A7E3A8 /* README.md in Sources */,
+				9208C76A1DBE457800A7E3A8 /* AVGLShareInstance.m in Sources */,
+				9208C7691DBE457800A7E3A8 /* AVGLRenderView+Animation.m in Sources */,
+				9208C77F1DBE4E8800A7E3A8 /* ILiveRoomConfig.m in Sources */,
+				9208C77C1DBE4E1D00A7E3A8 /* ILiveLoginManager.m in Sources */,
+				9208C7651DBE457800A7E3A8 /* AVGLCommon.m in Sources */,
+				9208C7631DBE457800A7E3A8 /* AVFrameDispatcher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +486,7 @@
 					"$(PROJECT_DIR)/TCAVIMSDKS/AVSDK",
 					"$(PROJECT_DIR)/TCAVIMSDKS/IMSDK",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -304,6 +502,7 @@
 					"$(PROJECT_DIR)/TCAVIMSDKS/AVSDK",
 					"$(PROJECT_DIR)/TCAVIMSDKS/IMSDK",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -329,6 +528,7 @@
 				9208C7161DBE3F5400A7E3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
